@@ -36,11 +36,23 @@
 
 ## Persistent vs. Sovereign
 
-The official sources use different words for what earns a Genesis 1000 slot.
+The official sources use different words for what earns a Genesis 1000 slot — the foundation's
+tweet says **persistent**, the Discord announcement says **sovereign**.
 
-<p align="center">
-  <img src="assets/sources-comparison.svg" alt="Persistent vs Sovereign — source comparison" width="100%"/>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<b>Foundation tweet</b> (<a href="https://x.com/ritualfnd">@ritualfnd</a>) — says <b>persistent</b>
+<br/><br/>
+<img src="assets/img/tweet-persistent.png" alt="Foundation tweet: spawn a persistent agent" width="100%"/>
+</td>
+<td width="50%" valign="top">
+<b>Discord announcement</b> — says <b>sovereign</b>
+<br/><br/>
+<img src="assets/img/discord-sovereign.png" alt="Discord: deploy a sovereign agent" width="100%"/>
+</td>
+</tr>
+</table>
 
 | Source | Wording |
 |--------|---------|

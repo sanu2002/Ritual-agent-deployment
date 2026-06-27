@@ -1,0 +1,28 @@
+# ──────────────────────────────────────────────────────────────
+# SECURITY: never commit secrets or the upstream skills clone
+# ──────────────────────────────────────────────────────────────
+# The cloned skills repo holds your real .env (private key, API keys).
+ritual-dapp-skills/
+
+# Any env / secret files anywhere
+.env
+*.env
+.env.*
+*.key
+*.pem
+secrets/
+**/secrets/
+
+# ──────────────────────────────────────────────────────────────
+# Build / tooling noise
+# ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+out/
+cache/
+broadcast/
+.DS_Store
+Thumbs.db

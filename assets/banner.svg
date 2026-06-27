@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06120b"/>
+      <stop offset="0.55" stop-color="#0a1a10"/>
+      <stop offset="1" stop-color="#04100a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#16ff7a" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#16ff7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4dffa0"/>
+      <stop offset="1" stop-color="#10c46a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#glow)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#16ff7a" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M40 40 h44 M40 40 v44"/>
+    <path d="M1160 40 h-44 M1160 40 v44"/>
+    <path d="M40 380 h44 M40 380 v-44"/>
+    <path d="M1160 380 h-44 M1160 380 v-44"/>
+  </g>
+
+  <!-- Ritual-style geometric mark -->
+  <g transform="translate(120,150)" filter="url(#soft)">
+    <rect x="0" y="0" width="84" height="84" rx="10" transform="rotate(45 42 42)" fill="none" stroke="url(#green)" stroke-width="3"/>
+    <rect x="22" y="22" width="40" height="40" rx="6" transform="rotate(45 42 42)" fill="url(#green)" opacity="0.85"/>
+  </g>
+
+  <!-- heartbeat line -->
+  <polyline points="60,330 360,330 380,330 396,300 414,360 430,318 450,330 1140,330"
+            fill="none" stroke="#16ff7a" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- text -->
+  <text x="250" y="120" fill="#7fffc0" font-size="22" letter-spacing="7">RITUAL CHAIN · TESTNET</text>
+  <text x="248" y="196" fill="#ffffff" font-size="62" font-weight="800" letter-spacing="1">Persistent Agent</text>
+  <text x="250" y="256" fill="url(#green)" font-size="62" font-weight="800">Deployment Guide</text>
+  <text x="252" y="300" fill="#bdebcf" font-size="22">Spawn a sovereign, self-funding agent · Chain ID 1979</text>
+
+  <!-- genesis badge -->
+  <g transform="translate(910,70)">
+    <rect width="240" height="80" rx="12" fill="#0b1f13" stroke="#16ff7a" stroke-width="1.5"/>
+    <text x="20" y="34" fill="#7fffc0" font-size="15" letter-spacing="3">GENESIS</text>
+    <text x="20" y="66" fill="#4dffa0" font-size="34" font-weight="800">#0001–1000</text>
+    <text x="196" y="34" fill="#5fae84" font-size="13" text-anchor="end">PRIME</text>
+  </g>
+</svg>

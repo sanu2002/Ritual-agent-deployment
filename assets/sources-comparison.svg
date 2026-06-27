@@ -1,62 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
-  <defs>
-    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#06120b"/><stop offset="1" stop-color="#04100a"/>
-    </linearGradient>
-    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4dffa0"/><stop offset="1" stop-color="#10c46a"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="640" fill="url(#bg2)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <!-- GitHub light palette -->
+  <rect width="1200" height="640" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="1199" height="639" fill="none" stroke="#d0d7de"/>
 
-  <text x="600" y="58" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">Which agent counts for Genesis 1000?</text>
-  <text x="600" y="92" text-anchor="middle" fill="#9fe9c2" font-size="18">The official sources disagree on the wording — so this repo ships BOTH guides.</text>
+  <text x="600" y="56" text-anchor="middle" fill="#1f2328" font-size="30" font-weight="700">Which agent counts for Genesis 1000?</text>
+  <text x="600" y="88" text-anchor="middle" fill="#57606a" font-size="17">Official sources disagree on the wording, so this repo documents both.</text>
 
-  <!-- three source cards -->
   <!-- card 1: tweet -->
   <g transform="translate(60,130)">
-    <rect width="340" height="230" rx="14" fill="#0b1f13" stroke="#1f5e3a" stroke-width="1.5"/>
-    <text x="24" y="42" fill="#7fffc0" font-size="15" letter-spacing="2">SOURCE 1 · X / TWITTER</text>
-    <text x="24" y="72" fill="#ffffff" font-size="20" font-weight="700">@ritualfnd (Foundation)</text>
-    <text x="24" y="120" fill="#cfeede" font-size="17">"...first 1,000 wallets to</text>
-    <text x="24" y="146" fill="#cfeede" font-size="17">spawn a</text>
-    <text x="118" y="146" fill="#4dffa0" font-size="17" font-weight="800">PERSISTENT</text>
-    <text x="24" y="172" fill="#cfeede" font-size="17">agent on Ritual testnet."</text>
-    <rect x="24" y="192" width="160" height="26" rx="6" fill="#10351f"/>
-    <text x="34" y="210" fill="#4dffa0" font-size="14" font-weight="700">says: PERSISTENT</text>
+    <rect width="340" height="230" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="24" y="40" fill="#57606a" font-size="13" letter-spacing="1.5">SOURCE 1 — X / TWITTER</text>
+    <text x="24" y="70" fill="#1f2328" font-size="19" font-weight="700">@ritualfnd (Foundation)</text>
+    <text x="24" y="116" fill="#424a53" font-size="16">"...first 1,000 wallets to</text>
+    <text x="24" y="142" fill="#424a53" font-size="16">spawn a <tspan fill="#1a7f37" font-weight="700">PERSISTENT</tspan></text>
+    <text x="24" y="168" fill="#424a53" font-size="16">agent on Ritual testnet."</text>
+    <rect x="24" y="190" width="150" height="28" rx="6" fill="#dafbe1"/>
+    <text x="36" y="209" fill="#1a7f37" font-size="13" font-weight="700">says: PERSISTENT</text>
   </g>
 
   <!-- card 2: discord -->
   <g transform="translate(430,130)">
-    <rect width="340" height="230" rx="14" fill="#0b1f13" stroke="#1f5e3a" stroke-width="1.5"/>
-    <text x="24" y="42" fill="#7fffc0" font-size="15" letter-spacing="2">SOURCE 2 · DISCORD</text>
-    <text x="24" y="72" fill="#ffffff" font-size="20" font-weight="700">Genesis 1000 announcement</text>
-    <text x="24" y="120" fill="#cfeede" font-size="17">"...first 1,000 wallets to</text>
-    <text x="24" y="146" fill="#cfeede" font-size="17">deploy a</text>
-    <text x="108" y="146" fill="#7dd3ff" font-size="17" font-weight="800">SOVEREIGN</text>
-    <text x="24" y="172" fill="#cfeede" font-size="17">agent on Ritual testnet."</text>
-    <rect x="24" y="192" width="160" height="26" rx="6" fill="#10293f"/>
-    <text x="34" y="210" fill="#7dd3ff" font-size="14" font-weight="700">says: SOVEREIGN</text>
+    <rect width="340" height="230" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="24" y="40" fill="#57606a" font-size="13" letter-spacing="1.5">SOURCE 2 — DISCORD</text>
+    <text x="24" y="70" fill="#1f2328" font-size="19" font-weight="700">Genesis 1000 announcement</text>
+    <text x="24" y="116" fill="#424a53" font-size="16">"...first 1,000 wallets to</text>
+    <text x="24" y="142" fill="#424a53" font-size="16">deploy a <tspan fill="#0969da" font-weight="700">SOVEREIGN</tspan></text>
+    <text x="24" y="168" fill="#424a53" font-size="16">agent on Ritual testnet."</text>
+    <rect x="24" y="190" width="150" height="28" rx="6" fill="#ddf4ff"/>
+    <text x="36" y="209" fill="#0969da" font-size="13" font-weight="700">says: SOVEREIGN</text>
   </g>
 
   <!-- card 3: explorer -->
   <g transform="translate(800,130)">
-    <rect width="340" height="230" rx="14" fill="#0b1f13" stroke="#1f5e3a" stroke-width="1.5"/>
-    <text x="24" y="42" fill="#7fffc0" font-size="15" letter-spacing="2">SOURCE 3 · EXPLORER</text>
-    <text x="24" y="72" fill="#ffffff" font-size="20" font-weight="700">Autonomous Agents</text>
-    <text x="24" y="116" fill="#cfeede" font-size="16">Two real on-chain types:</text>
-    <text x="24" y="150" fill="#4dffa0" font-size="18" font-weight="800">Persistent  55</text>
-    <text x="24" y="178" fill="#7dd3ff" font-size="18" font-weight="800">Sovereign  2,283</text>
-    <rect x="24" y="196" width="210" height="26" rx="6" fill="#10351f"/>
-    <text x="34" y="214" fill="#cfeede" font-size="13" font-weight="700">BOTH exist (0x0820 / 0x080C)</text>
+    <rect width="340" height="230" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text x="24" y="40" fill="#57606a" font-size="13" letter-spacing="1.5">SOURCE 3 — EXPLORER</text>
+    <text x="24" y="70" fill="#1f2328" font-size="19" font-weight="700">Autonomous Agents</text>
+    <text x="24" y="112" fill="#424a53" font-size="15">Two real on-chain types:</text>
+    <text x="24" y="146" fill="#1a7f37" font-size="18" font-weight="700">Persistent  55</text>
+    <text x="24" y="174" fill="#0969da" font-size="18" font-weight="700">Sovereign  2,283</text>
+    <rect x="24" y="190" width="240" height="28" rx="6" fill="#eaeef2"/>
+    <text x="36" y="209" fill="#424a53" font-size="12.5" font-weight="700">BOTH exist (0x0820 / 0x080C)</text>
   </g>
 
   <!-- conclusion -->
   <g transform="translate(60,410)">
-    <rect width="1080" height="170" rx="16" fill="#0a1a10" stroke="url(#g2)" stroke-width="2"/>
-    <text x="32" y="46" fill="#4dffa0" font-size="20" font-weight="800">CONCLUSION — why this repo ships both guides</text>
-    <text x="32" y="84" fill="#e6f6ec" font-size="16">• The wording is inconsistent across official channels, and on-chain both agent types genuinely exist.</text>
-    <text x="32" y="112" fill="#e6f6ec" font-size="16">• Genesis slots are matched from on-chain deploy data, ranked by first-deploy time — so being early matters more than the label.</text>
-    <text x="32" y="140" fill="#ffffff" font-size="16" font-weight="700">• To remove all doubt: deploy a PERSISTENT agent (0x0820) AND a SOVEREIGN agent (0x080C) from the same wallet.</text>
+    <rect width="1080" height="170" rx="12" fill="#f6f8fa" stroke="#1a7f37" stroke-width="1.5"/>
+    <text x="32" y="46" fill="#1a7f37" font-size="19" font-weight="700">Conclusion — why this repo documents both</text>
+    <text x="32" y="84" fill="#424a53" font-size="15.5">The wording is inconsistent across official channels, and on-chain both agent types genuinely exist.</text>
+    <text x="32" y="112" fill="#424a53" font-size="15.5">Genesis slots are matched from on-chain deploy data, ranked by first-deploy time — being early matters more than the label.</text>
+    <text x="32" y="140" fill="#1f2328" font-size="15.5" font-weight="700">To remove all doubt: deploy a Persistent agent (0x0820) AND a Sovereign agent (0x080C) from the same wallet.</text>
   </g>
 </svg>
